@@ -22,6 +22,8 @@ import BlogImg8 from "../images/blog/img-8.jpg"
 import BlogImg9 from "../images/blog/img-9.jpg"
 import PricingTable from "../components/PricingTable"
 import ClientReview from "../components/ClientReview"
+import ContactSection from "../components/ContactSection"
+import FooterSection from "../components/FooterSection"
 
 const HomepageBanner = () => {
   var settings = {
@@ -33,6 +35,7 @@ const HomepageBanner = () => {
   }
   return (
     <>
+      {/* <Navbar /> */}
       <Banner bannerBg={BannerImage} bannerStyle="text-center white" />
       <CallToAction />
 
@@ -481,6 +484,14 @@ const HomepageBanner = () => {
       {/* Start Clients & Review Section */}
       <ClientReview />
       {/* End Clients & Review Section */}
+
+      {/* Start Contact Section */}
+      <ContactSection />
+      {/* End Contact Section */}
+
+      {/* Start Footer Section */}
+      <FooterSection />
+      {/* End Footer Section */}
     </>
   )
 }
