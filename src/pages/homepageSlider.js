@@ -1,6 +1,4 @@
 import React from "react"
-import BannerImage from "../images/slideshow/banner-1.jpg"
-import Banner from "../components/Banner"
 import CallToAction from "../components/CallToAction"
 import FeatureSection from "../components/FeatureSection"
 import SectionTitle from "../components/SectionTitle"
@@ -25,9 +23,10 @@ import ClientReview from "../components/ClientReview"
 import ContactSection from "../components/ContactSection"
 import FooterSection from "../components/FooterSection"
 import Navbar from "../components/Navbar"
+import Slideshow from "../components/Slideshow"
 import SEO from "../components/SEO"
 
-const HomepageBanner = () => {
+const HomepageSlider = () => {
   var settings = {
     dots: true,
     infinite: true,
@@ -55,7 +54,7 @@ const HomepageBanner = () => {
     <>
       <SEO/>
       <Navbar />
-      <Banner bannerBg={BannerImage} bannerStyle="text-center white" />
+      <Slideshow/>
       <CallToAction />
 
       {/* Start About Us Section */}
@@ -515,4 +514,4 @@ const HomepageBanner = () => {
   )
 }
 
-export default HomepageBanner
+export default HomepageSlider

@@ -25,7 +25,7 @@ const Navbar = () => {
 		<>
 			<nav className={`otheloNav navbar navbar-expand-lg navbar-light navbar-fixed-top ${scrolled ? "navbar-bg" : ""}`}>
 				<div className="container">
-					<Link className="navbar-brand" to="hero-banner" smooth={true} duration={1000}>Othelo</Link>
+					<Link className="navbar-brand" to="./" smooth={true} duration={1000}>Othelo</Link>
 					<button className={isOpen ? `navbar-toggler` : `navbar-toggler collapsed`} type="button" onClick={toggleNav} data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<i className="fa fa-bars"></i>
 					</button>
@@ -118,7 +118,7 @@ const Navbar = () => {
 			</nav>
 
 			<Link to={"hero-banner"} smooth={true} duration={1000} id="back-to-top" className={`${scrolled ? "back-to-top reveal" : "back-to-top"}`}>
-				<i class="fa fa-angle-up fa-2x"></i>
+				<i className="fa fa-angle-up fa-2x"></i>
 			</Link>
 		</>
     )

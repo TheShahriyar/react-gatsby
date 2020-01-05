@@ -5,7 +5,6 @@ const Banner = ({ bannerBg, bannerStyle }) => {
     <section
       id="hero-banner"
       className="parallax"
-      style="background-image: url(assets/images/slideshow/banner-1.jpg);"
       style={{ backgroundImage: `url(${bannerBg})` }}
     >
       <div className="container">
