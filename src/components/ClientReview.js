@@ -38,32 +38,32 @@ const ClientReview = () => {
           </div>
         </div>
         <div className="row" style={{ marginBottom: "80px" }}>
-          <div className="col-md-2 col-sm-4 col-xs-6">
+          <div className="col-md-2 col-sm-4 col-6">
             <div className="client-logo">
               <img src={Client1} alt="theshahriyar" />
             </div>
           </div>
-          <div className="col-md-2 col-sm-4 col-xs-6">
+          <div className="col-md-2 col-sm-4 col-6">
             <div className="client-logo">
               <img src={Client2} alt="theshahriyar" />
             </div>
           </div>
-          <div className="col-md-2 col-sm-4 col-xs-6">
+          <div className="col-md-2 col-sm-4 col-6">
             <div className="client-logo">
               <img src={Client3} alt="theshahriyar" />
             </div>
           </div>
-          <div className="col-md-2 col-sm-4 col-xs-6">
+          <div className="col-md-2 col-sm-4 col-6">
             <div className="client-logo">
               <img src={Client4} alt="theshahriyar" />
             </div>
           </div>
-          <div className="col-md-2 col-sm-4 col-xs-6">
+          <div className="col-md-2 col-sm-4 col-6">
             <div className="client-logo">
               <img src={Client5} alt="theshahriyar" />
             </div>
           </div>
-          <div className="col-md-2 col-sm-4 col-xs-6">
+          <div className="col-md-2 col-sm-4 col-6">
             <div className="client-logo">
               <img src={Client6} alt="theshahriyar" />
             </div>

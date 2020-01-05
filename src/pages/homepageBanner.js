@@ -24,6 +24,7 @@ import PricingTable from "../components/PricingTable"
 import ClientReview from "../components/ClientReview"
 import ContactSection from "../components/ContactSection"
 import FooterSection from "../components/FooterSection"
+import Navbar from "../components/Navbar"
 
 const HomepageBanner = () => {
   var settings = {
@@ -32,10 +33,26 @@ const HomepageBanner = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+    ]
   }
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <Banner bannerBg={BannerImage} bannerStyle="text-center white" />
       <CallToAction />
 

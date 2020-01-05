@@ -2,12 +2,12 @@
 /* Start Top Navbar Section                           */
 /*------------------------------------------------*/
 
-.navbar-expand-lg {
+.otheloNav.navbar-expand-lg {
   border-color: transparent;
   background-color: $brand-primary;
 }
 
-.navbar-expand-lg .navbar-brand {
+.otheloNav.navbar-expand-lg .navbar-brand {
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
   color: #fff;
 
@@ -17,7 +17,13 @@
   }
 }
 
-.navbar-expand-lg .navbar-collapse {
+.otheloNav.navbar-expand-lg .navbar-toggler {
+  border-color: #fff;
+  color: #fff;
+  outline: 0;
+}
+
+.otheloNav.navbar-expand-lg .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 
@@ -25,25 +31,26 @@
 //   background-color: #fff;
 // }
 
-.navbar-expand-lg .nav li {
+.otheloNav.navbar-expand-lg .navbar-nav li {
   margin-left: 5px;
 }
 
-.navbar-expand-lg .nav li a {
+.otheloNav.navbar-expand-lg .navbar-nav li a {
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 1px;
   color: #fff;
   font-size: 12px;
   border: 2px solid transparent;
+  cursor: pointer;
 }
 
-.navbar-expand-lg .nav li a:hover,
-.navbar-expand-lg .nav li a:focus {
+.otheloNav.navbar-expand-lg .navbar-nav li a:hover,
+.otheloNav.navbar-expand-lg .navbar-nav li a:focus {
   color: $brand-primary;
 }
 
-.navbar-expand-lg .navbar-nav > .active > a {
+.otheloNav.navbar-expand-lg .navbar-nav > .active > a {
   border-radius: 0;
   color: $brand-primary;
 
@@ -52,13 +59,13 @@
   }
 }
 
-.navbar-expand-lg .navbar-nav > .active > a:hover,
-.navbar-expand-lg .navbar-nav > .active > a:focus {
+.otheloNav.navbar-expand-lg .navbar-nav > .active > a:hover,
+.otheloNav.navbar-expand-lg .navbar-nav > .active > a:focus {
   color: $brand-primary;
 }
 
 @media (min-width: 768px) {
-  .navbar-expand-lg {
+  .otheloNav.navbar-expand-lg {
     padding: 15px 0;
     border: 0;
     background: fade-out(#222, 0.5);
@@ -68,7 +75,7 @@
     transition: all 0.3s;
   }
 
-  .navbar-expand-lg .navbar-brand {
+  .otheloNav.navbar-expand-lg .navbar-brand {
     font-size: 40px;
     color: $brand-primary;
     -webkit-transition: all 0.3s;
@@ -77,14 +84,14 @@
     transition: all 0.3s;
   }
 
-  .navbar-expand-lg.navbar-bg {
+  .otheloNav.navbar-expand-lg.navbar-bg {
     padding: 10px 0;
     background-color: #222;
     //-webkit-box-shadow: 0px 0px 5px 0 #666;
     //box-shadow: 0px 2px 5px 0 #999;
   }
 
-  .navbar-expand-lg.navbar-bg .nav li a {
+  .otheloNav.navbar-expand-lg.navbar-bg .nav li a {
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
@@ -93,35 +100,36 @@
     border: 2px solid transparent;
   }
 
-  .navbar-expand-lg.navbar-bg .nav li a:hover,
-  .navbar-expand-lg.navbar-bg .nav li a:focus {
+  .otheloNav.navbar-expand-lg.navbar-bg .nav li a:hover,
+  .otheloNav.navbar-expand-lg.navbar-bg .nav li a:focus {
     background: transparent;
     color: $brand-primary;
   }
 
-  .navbar-expand-lg.navbar-bg .navbar-toggle:hover,
-  .navbar-expand-lg.navbar-bg .navbar-toggle:focus {
+  .otheloNav.navbar-expand-lg.navbar-bg .navbar-toggle:hover,
+  .otheloNav.navbar-expand-lg.navbar-bg .navbar-toggle:focus {
     color: $brand-primary;
   }
 
-  .navbar-expand-lg.navbar-bg .navbar-nav > .active > a {
+  .otheloNav.navbar-expand-lg.navbar-bg .navbar-nav > .active > a {
     color: $brand-primary;
     background: transparent;
   }
 
-  .navbar-expand-lg.navbar-bg .navbar-nav > .active > a:hover,
-  .navbar-expand-lg.navbar-bg .navbar-nav > .active > a:focus {
+  .otheloNav.navbar-expand-lg.navbar-bg .navbar-nav > .active > a:hover,
+  .otheloNav.navbar-expand-lg.navbar-bg .navbar-nav > .active > a:focus {
     color: $brand-primary;
     color: #111;
   }
 
-  .navbar-expand-lg.navbar-bg .navbar-brand {
+  .otheloNav.navbar-expand-lg.navbar-bg .navbar-brand {
     font-size: 1.5em;
   }
 }
 
 @media (max-width: 767px) {
-  .navbar-expand-lg .navbar-collapse {
+  .otheloNav.navbar-expand-lg .navbar-collapse {
     background: #222;
+    margin-top: 15px;
   }
 }
