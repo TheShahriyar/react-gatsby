@@ -1,5 +1,6 @@
 import React from "react"
 import SectionTitle from "./SectionTitle"
+import {OverlayTrigger, Tooltip} from "react-bootstrap"
 
 import PricingBg1 from "../images/others/pricing-bg-1.jpg"
 import PricingBg2 from "../images/others/pricing-bg-2.jpg"
@@ -39,33 +40,33 @@ const PricingTable = () => {
                 <ul>
                   <li>
                     Basic Feature{" "}
-                    <i
-                      className="fa fa-question-circle"
-                      data-toggle="tooltip"
-                      data-placement="left"
-                      title=""
-                      data-original-title="Something more about this"
-                    ></i>
+                    <OverlayTrigger
+                      placement="left"
+                      delay={{ show: 250, hide: 400 }}
+                      overlay={<Tooltip>Here is some note</Tooltip>}
+                    >
+                      <i className="fa fa-question-circle" variant="success"></i>
+                    </OverlayTrigger>
                   </li>
                   <li>
                     One User{" "}
-                    <i
-                      className="fa fa-question-circle"
-                      data-toggle="tooltip"
-                      data-placement="left"
-                      title=""
-                      data-original-title="Something more about this"
-                    ></i>
+                    <OverlayTrigger
+                      placement="left"
+                      delay={{ show: 250, hide: 400 }}
+                      overlay={<Tooltip>Here is some note</Tooltip>}
+                    >
+                      <i className="fa fa-question-circle" variant="success"></i>
+                    </OverlayTrigger>
                   </li>
                   <li>
                     10 Records{" "}
-                    <i
-                      className="fa fa-question-circle"
-                      data-toggle="tooltip"
-                      data-placement="left"
-                      title=""
-                      data-original-title="Something more about this"
-                    ></i>
+                    <OverlayTrigger
+                      placement="left"
+                      delay={{ show: 250, hide: 400 }}
+                      overlay={<Tooltip>Here is some note</Tooltip>}
+                    >
+                      <i className="fa fa-question-circle" variant="success"></i>
+                    </OverlayTrigger>
                   </li>
                   <li>Basic Feature</li>
                   <li>One User</li>
@@ -94,33 +95,33 @@ const PricingTable = () => {
                 <ul>
                   <li>
                     Basic Feature{" "}
-                    <i
-                      className="fa fa-question-circle"
-                      data-toggle="tooltip"
-                      data-placement="left"
-                      title=""
-                      data-original-title="Something more about this"
-                    ></i>
+                    <OverlayTrigger
+                      placement="left"
+                      delay={{ show: 250, hide: 400 }}
+                      overlay={<Tooltip>Here is some note</Tooltip>}
+                    >
+                      <i className="fa fa-question-circle" variant="success"></i>
+                    </OverlayTrigger>
                   </li>
                   <li>
                     One User{" "}
-                    <i
-                      className="fa fa-question-circle"
-                      data-toggle="tooltip"
-                      data-placement="left"
-                      title=""
-                      data-original-title="Something more about this"
-                    ></i>
+                    <OverlayTrigger
+                      placement="left"
+                      delay={{ show: 250, hide: 400 }}
+                      overlay={<Tooltip>Here is some note</Tooltip>}
+                    >
+                      <i className="fa fa-question-circle" variant="success"></i>
+                    </OverlayTrigger>
                   </li>
                   <li>
                     10 Records{" "}
-                    <i
-                      className="fa fa-question-circle"
-                      data-toggle="tooltip"
-                      data-placement="left"
-                      title=""
-                      data-original-title="Something more about this"
-                    ></i>
+                    <OverlayTrigger
+                      placement="left"
+                      delay={{ show: 250, hide: 400 }}
+                      overlay={<Tooltip>Here is some note</Tooltip>}
+                    >
+                      <i className="fa fa-question-circle" variant="success"></i>
+                    </OverlayTrigger>
                   </li>
                   <li>Basic Feature</li>
                   <li>One User</li>
@@ -149,33 +150,33 @@ const PricingTable = () => {
                 <ul>
                   <li>
                     Basic Feature{" "}
-                    <i
-                      className="fa fa-question-circle"
-                      data-toggle="tooltip"
-                      data-placement="left"
-                      title=""
-                      data-original-title="Something more about this"
-                    ></i>
+                    <OverlayTrigger
+                      placement="left"
+                      delay={{ show: 250, hide: 400 }}
+                      overlay={<Tooltip>Here is some note</Tooltip>}
+                    >
+                      <i className="fa fa-question-circle" variant="success"></i>
+                    </OverlayTrigger>
                   </li>
                   <li>
                     One User{" "}
-                    <i
-                      className="fa fa-question-circle"
-                      data-toggle="tooltip"
-                      data-placement="left"
-                      title=""
-                      data-original-title="Something more about this"
-                    ></i>
+                    <OverlayTrigger
+                      placement="left"
+                      delay={{ show: 250, hide: 400 }}
+                      overlay={<Tooltip>Here is some note</Tooltip>}
+                    >
+                      <i className="fa fa-question-circle" variant="success"></i>
+                    </OverlayTrigger>
                   </li>
                   <li>
                     10 Records{" "}
-                    <i
-                      className="fa fa-question-circle"
-                      data-toggle="tooltip"
-                      data-placement="left"
-                      title=""
-                      data-original-title="Something more about this"
-                    ></i>
+                    <OverlayTrigger
+                      placement="left"
+                      delay={{ show: 250, hide: 400 }}
+                      overlay={<Tooltip>Here is some note</Tooltip>}
+                    >
+                      <i className="fa fa-question-circle" variant="success"></i>
+                    </OverlayTrigger>
                   </li>
                   <li>Basic Feature</li>
                   <li>One User</li>
